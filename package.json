@@ -1,0 +1,30 @@
+{
+	"name": "itsc-3155-final-project",
+	"type": "module",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "turbo run dev",
+		"lint": "eslint app shared express",
+		"lint:app": "eslint app",
+		"lint:express": "eslint express",
+		"lint:shared": "eslint shared",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"packageManager": "pnpm@10.18.3",
+	"dependencies": {
+		"turbo": "^2.8.20"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.39.4",
+		"eslint": "^9.39.4",
+		"eslint-plugin-react-hooks": "^7.0.1",
+		"eslint-plugin-react-refresh": "^0.5.2",
+		"globals": "^17.4.0",
+		"typescript-eslint": "^8.57.0"
+	}
+}
